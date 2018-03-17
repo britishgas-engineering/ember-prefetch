@@ -1,5 +1,7 @@
 # ember-prefetch
 
+#### This is currently WIP but a first release is coming soon!
+
 This addon allows you to prefetch assets of another ember application. Prefetching can significantly improve user experience by downloading and caching assets of a second application in the background (without impacting loading performance of the prefetching application). 
 
 This means that when the user actually navigates to the second application, the assets are already there (or nearly there depending on how fast the navigation between the 2 takes) and the second application boots quickly for the user.
@@ -38,8 +40,6 @@ The above configuration will insert the following tags dynamically,
 ```
 
 Read Addy Osmani's excellent blog post describing preload, prefetch and priorities at https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
-
-This addon is currently WIP but a first release is coming soon!
 
 ## Installation
 
