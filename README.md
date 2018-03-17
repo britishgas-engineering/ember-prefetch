@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ember-prefetch
 
 This README outlines the details of collaborating on this Ember addon.
@@ -25,6 +24,3 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember build`
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
-=======
-# ember-prefetch
->>>>>>> ec7b7b05c57b7ce2e0a4e630cffec56711abcf62
