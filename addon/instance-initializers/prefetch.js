@@ -3,7 +3,7 @@ export function initialize(appInstance) {
   const {prefetch:{applicationRoot, applicationName}} = config;
 
   if (applicationRoot && applicationName) {
-    fetch(`/assetMap.json`)
+    fetch(`${applicationRoot}/assets/assetMap.json`)
       .then((response) => {
         return response.json();
       })
@@ -17,7 +17,7 @@ export function initialize(appInstance) {
            <link rel="prefetch" href="${applicationRoot}${vendorJs}" as="script">
            <link rel="prefetch" href="${applicationRoot}${applicationJs}" as="script">
            <link rel="prefetch" href="${applicationRoot}${vendorCss}" as="style">
-           <link rel="prefetch" href="${applicationRoot}${applicationCss}}" as="style">`;
+           <link rel="prefetch" href="${applicationRoot}${applicationCss}" as="style">`;
 
         const parser = new DOMParser();
         const doc = parser.parseFromString(prefetchHTML, 'text/html');
