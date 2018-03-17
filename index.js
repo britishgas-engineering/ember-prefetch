@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-prefetch'
+  name: 'ember-prefetch',
+
+  isDevelopingAddon() {
+    return true;
+  }
 };
